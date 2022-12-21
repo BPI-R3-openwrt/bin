@@ -1,0 +1,216 @@
+Package: luci-app-adguardhome
+Version: git-22.354.02537-f9d4675
+Depends: libc, ca-certs, curl, wget-ssl, adguardhome
+Section: luci
+Architecture: all
+Installed-Size: 88967
+Filename: luci-app-adguardhome_git-22.354.02537-f9d4675_all.ipk
+Size: 90166
+SHA256sum: ba352a4d08580de8e8ab174b55cc725a7e46d8d56e8670cd9c65d398fe1d2570
+Description:  LuCI support for AdGuardHome
+
+Package: luci-app-advanced
+Version: 1.20-20220218
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 13085
+Filename: luci-app-advanced_1.20-20220218_all.ipk
+Size: 13804
+SHA256sum: 1cf9701b56c7482c753a697b73e104e4fa00eda309eb3319809596c471ca78f9
+Description:  LuCI Support for advanced and filebrowser
+
+Package: luci-app-diskman
+Version: git-22.354.02537-f9d4675
+Depends: libc, blkid, e2fsprogs, parted, smartmontools, btrfs-progs, lsblk, mdadm, mdadm, kmod-md-raid456
+License: AGPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 20468
+Filename: luci-app-diskman_git-22.354.02537-f9d4675_all.ipk
+Size: 21336
+SHA256sum: a9eb18a7203014d801fec45888c5a09d53f1fd329709302a4ab2621d0c0d9202
+Description:  Disk Manager interface for LuCI
+
+Package: luci-app-dnsfilter
+Version: 1.0
+Depends: libc, curl, dnsmasq-full, ipset
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 8153
+Filename: luci-app-dnsfilter_1.0_all.ipk
+Size: 8932
+SHA256sum: 5ea4b11e6febd96190c45ce227d8bebb7a58151b29987cf8d3befdb3d551ab04
+Description:  LuCI support for DNSFilter
+
+Package: luci-app-ssr-mudb-server
+Version: 11
+Depends: libc, libsodium, luci-lib-jsonc, python3
+Section: luci
+Architecture: all
+Installed-Size: 131902
+Filename: luci-app-ssr-mudb-server_11_all.ipk
+Size: 132843
+SHA256sum: 4d6d18e5c3df92d64c9c3a2fa798622a3c70b38d89893f51cce7af44cbeb10f7
+Description:  LuCI support for SSR Mudb Server
+
+Package: luci-i18n-adguardhome-zh-cn
+Version: git-22.354.02537-f9d4675
+Depends: libc, luci-app-adguardhome
+Section: luci
+Architecture: all
+Installed-Size: 2220
+Filename: luci-i18n-adguardhome-zh-cn_git-22.354.02537-f9d4675_all.ipk
+Size: 3117
+SHA256sum: 5dd457d05198a9e89385a8fcdc5a6fc775a895c56da55e1bd3743df53757c425
+Description:  Translation for luci-app-adguardhome - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-diskman-zh-cn
+Version: git-22.354.02537-f9d4675
+Depends: libc, luci-app-diskman
+License: AGPL-3.0
+Section: luci
+Architecture: all
+Installed-Size: 1900
+Filename: luci-i18n-diskman-zh-cn_git-22.354.02537-f9d4675_all.ipk
+Size: 2799
+SHA256sum: 177c21d1cf35af35bee17e53f2c4b093dbd16badd457d079981a58e5384a58f0
+Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-dnsfilter-zh-cn
+Version: git-22.354.02537-f9d4675
+Depends: libc, luci-app-dnsfilter
+License: GPLv2
+Section: luci
+Architecture: all
+Installed-Size: 1450
+Filename: luci-i18n-dnsfilter-zh-cn_git-22.354.02537-f9d4675_all.ipk
+Size: 2336
+SHA256sum: a7ee4b2fc4582b499c0e9311f8614d6d4befb129a8a61a5335f294de7deccde7
+Description:  Translation for luci-app-dnsfilter - 简体中文 (Chinese Simplified)
+
+Package: luci-i18n-ssr-mudb-server-zh-cn
+Version: git-22.354.02537-f9d4675
+Depends: libc, luci-app-ssr-mudb-server
+Section: luci
+Architecture: all
+Installed-Size: 1798
+Filename: luci-i18n-ssr-mudb-server-zh-cn_git-22.354.02537-f9d4675_all.ipk
+Size: 2661
+SHA256sum: ee977819b38fac5d23c65d03b8d62d3d17ff887994271e2bba572d36b9fca755
+Description:  Translation for luci-app-ssr-mudb-server - 简体中文 (Chinese Simplified)
+
+Package: luci-theme-argon
+Version: 2.2.9.4
+Depends: libc, curl, jsonfilter
+Section: luci
+Architecture: all
+Installed-Size: 414646
+Filename: luci-theme-argon_2.2.9.4_all.ipk
+Size: 415279
+SHA256sum: 227264d7e43948954e5fbe2df331979fc839aa91cc974a8e28e879717b01ee05
+Description:  Argon Theme
+
+Package: luci-theme-argonne
+Version: 1.7.3
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 360079
+Filename: luci-theme-argonne_1.7.3_all.ipk
+Size: 360810
+SHA256sum: e30e781ebc0eaa53508421d65676b2278fe8ebadb955cca6c52552cab84f89b7
+Description:  Argonne kenzo
+
+Package: luci-theme-atmaterial_new
+Version: 1.2
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 610858
+Filename: luci-theme-atmaterial_new_1.2_all.ipk
+Size: 611626
+SHA256sum: 3c4234dc4aa37d0b886b069f2f6172815c518df969dfbe45cd80c2f590e3fffd
+Description:  Atmaterial_new kenzo
+
+Package: luci-theme-ifit
+Version: 1.6-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 2120272
+Filename: luci-theme-ifit_1.6-1_all.ipk
+Size: 2121138
+SHA256sum: 83d0ad1fe762a760ba80b39f4f82797ae5fbee09fb5ef8d88814440453dc56da
+Description:  Ifit by kenzo
+
+Package: luci-theme-mcat
+Version: 0.2.50-1
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 208422
+Filename: luci-theme-mcat_0.2.50-1_all.ipk
+Size: 209268
+SHA256sum: 36041409711df4c055d920c8ad4b48acba6c1cf3214397191ed63ef223a12ccb
+Description:  Mcat new kenzo
+
+Package: luci-theme-neobird
+Version: 2.0
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 307740
+Filename: luci-theme-neobird_2.0_all.ipk
+Size: 308685
+SHA256sum: 2e4a745a87622bf6ad0d27acd49a4eaf928a241c1f0db48afcfa301fb08fa0db
+Description:  Neobird Theme
+
+Package: luci-theme-opentopd
+Version: 1.5.0
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 501596
+Filename: luci-theme-opentopd_1.5.0_all.ipk
+Size: 502528
+SHA256sum: 4536c87009fe49daf4fcf8d950e880006b08ffde209d1c5f40bb931a9bf86069
+Description:  LuCI luci-theme-opentopd theme
+
+Package: luci-theme-tomato
+Version: git-22.354.02537-f9d4675
+Depends: libc
+Section: luci
+Architecture: all
+Installed-Size: 209575
+Filename: luci-theme-tomato_git-22.354.02537-f9d4675_all.ipk
+Size: 210493
+SHA256sum: 7ac07a2101a7f2d250435e8083f6f47b2973414ba46b9dd6a83e51559c888a39
+Description:  Tomato new kenzo
+
+Package: microsocks
+Version: 1.0.3-1
+Depends: libc, libpthread
+License: MIT
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 5824
+Filename: microsocks_1.0.3-1_aarch64_cortex-a53.ipk
+Size: 6623
+SHA256sum: b97cb8111f680f57d62c9bf68d48078e30eaf47915d92d4406af09aca8071751
+Description:  A SOCKS5 service that you can run on your remote boxes to tunnel connections
+ through them, if for some reason SSH doesn't cut it for you.
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+License: GPL-2.0-only
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 3806
+Filename: tcping_0.3-1_aarch64_cortex-a53.ipk
+Size: 4506
+SHA256sum: 0ad4aafbb160d9f82923bfa1213c12f0807739b5be6dea2c500c5f6ceac9351c
+Description:  tcping measures the latency of a tcp-connection
+

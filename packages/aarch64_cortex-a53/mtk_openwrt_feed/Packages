@@ -1,0 +1,67 @@
+Package: mii_mgr
+Version: 1
+Depends: libc
+Section: MTK Properties
+Architecture: aarch64_cortex-a53
+Installed-Size: 2646
+Filename: mii_mgr_1_aarch64_cortex-a53.ipk
+Size: 3312
+SHA256sum: 898890008d78577136d2df6a98a88ca49dc4a60c12a058baaa929488c3afcd25
+Description:  An mdio r/w phy regs program.
+
+Package: mt76-vendor
+Version: 1
+Depends: libc, libnl-tiny2022-05-17
+License: GPLv2
+Section: devel
+Architecture: aarch64_cortex-a53
+Installed-Size: 7521
+Filename: mt76-vendor_1_aarch64_cortex-a53.ipk
+Size: 8258
+SHA256sum: ce70dfa06b9d93cb507f8dda6da0524ec2e3fa2aac5a328303de4ecae7a98baa
+Description:  vendor cmd for mt76
+
+Package: mtk_factory_rw
+Version: 1-r16554-1d4dea6d4f
+Depends: libc
+Section: MTK Properties
+Architecture: aarch64_cortex-a53
+Installed-Size: 1468
+Filename: mtk_factory_rw_1-r16554-1d4dea6d4f_aarch64_cortex-a53.ipk
+Size: 2206
+SHA256sum: 114b363ecc72792aec190e0f63839db1b677465cb12afef1ba475e0ac6947188
+Description:  mtk factory's data read and write
+
+Package: mtkhnat_util
+Version: 1-r16554-1d4dea6d4f
+Depends: libc
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 2529
+Filename: mtkhnat_util_1-r16554-1d4dea6d4f_aarch64_cortex-a53.ipk
+Size: 3198
+SHA256sum: be6673efa7505a9bd0e84373826c3c6ccb996d5d7ffeaca5a8a0da154fb2f706
+Description:  mtk hnat util to init hnat module
+
+Package: regs
+Version: 1
+Depends: libc
+Section: MTK Properties
+Architecture: aarch64_cortex-a53
+Installed-Size: 2568
+Filename: regs_1_aarch64_cortex-a53.ipk
+Size: 3291
+SHA256sum: e25c5e0f7bc34660886f246d3fd92cefdacfd1e6c6b789f8dbf0ceb853c2e8aa
+Description:  Simple program to read/write from/to a pci device from userspace.
+
+Package: switch
+Version: 1
+Depends: libc, libnl-tiny2022-05-17
+Section: MTK Properties
+Architecture: aarch64_cortex-a53
+Installed-Size: 29790
+Filename: switch_1_aarch64_cortex-a53.ipk
+Size: 30533
+SHA256sum: 3cf4551f282e2a53301fa7634022e08480e79772c862653e79d77a61bc01921a
+Description:  An program to config switch.
+
